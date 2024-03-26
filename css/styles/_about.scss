@@ -1,0 +1,70 @@
+@import '../variables';
+
+#about{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.column{
+    float: none;
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.row{
+    display: flex;
+}
+
+.portrait-container{
+    background: $about-background-image no-repeat top;
+    background-size: cover;
+    border-radius: $border-radius;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 1%;
+}
+
+.my-portrait{
+    width: 50%;
+    padding: 1%;
+}
+
+.about-content-container{
+    color: $text-primary-colour;
+    background: $secondary-background-colour;
+    border-radius: $border-radius;
+
+    border: 0.5px solid $text-primary-colour;
+
+    height: 100%;
+    margin-left: 1%;
+    margin-bottom: -2%;
+
+    p, h1{
+        padding-top: 5%;
+    }
+    p{
+        margin: 5%;
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: $media-phone-size){
+    .column{
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .about-content-container{
+        margin-left: 0% !important;
+    }
+
+    .portrait-container{
+        margin-right: 0% !important;
+    }
+
+    .row{
+        display: table !important;
+    }
+}
