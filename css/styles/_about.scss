@@ -39,13 +39,13 @@
 
     height: 100%;
     margin-left: 1%;
-    margin-bottom: -2%;
+    position: relative;
 
     p, h1{
         padding-top: 5%;
     }
     p{
-        margin: 5%;
+        margin: 0 5%;
         padding-bottom: 2%;
     }
 }
@@ -67,4 +67,23 @@
     .row{
         display: table !important;
     }
+}
+
+.button-container{
+    padding: 5%;
+}
+
+.projects-button{
+    padding: 0.5% 3% 1% 2%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.projects-button:hover{
+    cursor: pointer;
 }

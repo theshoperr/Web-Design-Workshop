@@ -30,14 +30,7 @@ nav{
     }
 
     .navbar-brand, .navbar-brand::after{
-        font-size: $navbar-brand-font-size;
         text-transform: uppercase;
-    }
-
-    @media (max-width: $media-phone-size){
-        .navbar-brand, .navbar-brand::after{
-            font-size: calc($navbar-brand-font-size / 1.5) !important;
-        }
     }
 
     .navbar-brand::after{

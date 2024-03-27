@@ -23,3 +23,53 @@ body{
     border: 0.5px solid #fff;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
 }
+
+.button-style{
+    border-radius: $border-radius;
+    border: 0.5px solid #fff;
+    color: $text-primary-colour;
+    background: $button-colour;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.font-body-dynamic, .font-body-dynamic::after{
+    font-size: $body-font-size;
+
+    @media (max-width: $media-phone-size){
+        font-size: calc($body-font-size / 1.5) !important;
+    }
+}
+
+.font-body, .font-body::after{
+    font-size: $body-font-size;
+}
+
+.font-title-dynamic, .font-title-dynamic::after{
+    font-size: $title-font-size;
+
+    @media (max-width: $media-phone-size){
+        font-size: calc($title-font-size / 1.5) !important;
+    }
+}
+
+.font-title, .font-title::after{
+    font-size: $title-font-size;
+}
+
+.font-title-x-dynamic, .font-title-x-dynamic::after{
+    font-size: $title-x-font-size;
+
+    @media (max-width: $media-phone-size){
+        font-size: calc($title-x-font-size / 1.5) !important;
+    }
+}
+
+.font-title-x, .font-title-x::after{
+    font-size: $title-x-font-size;
+}
