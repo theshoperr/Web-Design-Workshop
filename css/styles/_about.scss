@@ -5,16 +5,6 @@
     padding-top: 1%;
 }
 
-.column{
-    float: none;
-    width: 100%;
-    padding-bottom: 1%;
-}
-
-.row{
-    display: flex;
-}
-
 .portrait-container{
     background: $about-background-image no-repeat top;
     background-size: cover;
@@ -26,7 +16,7 @@
 }
 
 .my-portrait{
-    width: 50%;
+    width: 70%;
     padding: 1%;
 }
 
@@ -47,25 +37,17 @@
     p{
         margin: 0 5%;
         padding-bottom: 2%;
+        text-align: right;
     }
 }
 
 @media (max-width: $media-phone-size){
-    .column{
-        float: none !important;
-        width: 100% !important;
-    }
-
     .about-content-container{
         margin-left: 0% !important;
     }
 
     .portrait-container{
         margin-right: 0% !important;
-    }
-
-    .row{
-        display: table !important;
     }
 }
 

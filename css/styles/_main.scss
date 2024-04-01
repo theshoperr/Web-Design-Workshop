@@ -73,3 +73,69 @@ body{
 .font-title-x, .font-title-x::after{
     font-size: $title-x-font-size;
 }
+
+.column{
+    float: right;
+    padding-bottom: 1%;
+}
+
+.col-1{
+    width: 100% !important;
+}
+
+.col-2{
+    width: 50% !important;
+}
+
+.col-3{
+    width: 30% !important;
+}
+
+.col-4{
+    width: 20% !important;
+}
+
+.row{
+    display: flex;
+}
+
+@media (max-width: $media-phone-size){
+    .col-2{
+        width: 100% !important;
+    }
+
+    .col-3{
+        width: 100% !important;
+    }
+    
+    .col-4{
+        width: 100% !important;
+    }
+
+    .column{
+        float: none !important;
+        // width: 100% !important;
+    }
+
+    .row{
+        display: table !important;
+    }
+}
+
+footer{
+    color: rgba($text-primary-colour, 0.1);
+    text-align: center;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p::after{
+        content: $my-name ' • Template by';
+    }
+
+    a{
+        padding-left: 5px;
+        color: rgba($text-primary-colour, 0.1);
+    }
+}
