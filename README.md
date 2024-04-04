@@ -9,7 +9,7 @@ Abra o VSCode e encontre a aba de Extensões
 ![alt passo 1](https://imgur.com/FLhFWXf.png)
 
 ### Passo 2
-Copie o ID da extensão (encontra-se no final desse documento) e cole na barra de pesquisa
+Copie o ID da extensão (encontra-se no final desse segmento) e cole na barra de pesquisa
 ![alt passo 2](https://imgur.com/3I5lf86.png)
 
 ### Passo 3
@@ -22,3 +22,22 @@ Clique no resultado da pesquisa e clique em instalar. Pronto, extensão instalad
 
 ####  <img src="https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.9/1661914858952/Microsoft.VisualStudio.Services.Icons.Default" width="20"> Live Server
     ritwickdey.LiveServer
+
+
+# Como Usar o Template
+
+*Para melhor entender como funciona este template, siga o passo-a-passo com os arquivos já abertos em seu VSCode.*
+
+### Mudando Variáveis
+Para mudar as variáveis que irão alterar diretamente a aparência do seu site, procure o explorador de arquivos e navegue para css > variables.scss, como na imagem abaixo:
+![alt variaveis](https://imgur.com/8NvRNo2.png)
+
+Experimente modificando os valores e vendo quais tipos de alterações você consegue com isso.
+
+# Links Úteis
+
+*Abaixo estão listados alguns links utéis para saber mais sobre Web Design*
+
+- <a href="https://getbootstrap.com" target="_blank">Boostrap</a>
+- <a href="https://www.awwwards.com" target="_blank">Awwwards</a>
+- <a href="https://education.github.com/experiences/intro_to_web_dev" target="_blank">Github Student Pack - Intro to Web Dev</a>
