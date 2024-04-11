@@ -23,6 +23,9 @@ Clique no resultado da pesquisa e clique em instalar. Pronto, extensão instalad
 ####  <img src="https://ritwickdey.gallerycdn.vsassets.io/extensions/ritwickdey/liveserver/5.7.9/1661914858952/Microsoft.VisualStudio.Services.Icons.Default" width="20"> Live Server
     ritwickdey.LiveServer
 
+####  <img src="https://glenn2223.gallerycdn.vsassets.io/extensions/glenn2223/live-sass/6.1.2/1700696840107/Microsoft.VisualStudio.Services.Icons.Default" width="20"> Live Sass Compiler
+    glenn2223.live-sass
+
 
 # Como Usar o Template
 
